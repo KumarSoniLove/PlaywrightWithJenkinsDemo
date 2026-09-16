@@ -7,7 +7,7 @@ test.use({
 })
 
 
-test('Create POST API request using static file in playwright & typescript', async ({request}) => {
+test('Create POST API request using static file in playwright & typescript', {tag: ['@PlaywrightWithJenkins']}, async ({request}) => {
 
     //Create POST API Response
    const postAPIResponse = await request.post(`/booking`, {data: postAPIRequest});

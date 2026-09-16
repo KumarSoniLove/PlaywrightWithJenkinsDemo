@@ -12,7 +12,7 @@ test('javascriptAlertClickme', async ({page}) => {
     expect(await page.locator("//p[@id='demo']")).toHaveText("You pressed OK!");
 })
 
-test('confirmBox', async ({ page }) => {
+test('confirmBox', {tag: ['@PlaywrightWithJenkins']}, async ({ page }) => {
   await page.goto('https://www.testmuai.com/selenium-playground/javascript-alert-box-demo/');
   page.once('dialog', dialog => {
     console.log(`Dialog message: ${dialog.message()}`);
@@ -25,7 +25,7 @@ test('confirmBox', async ({ page }) => {
    expect(page.locator("#confirm-demo")).toContainText("OK!");
 });
 
-test("promptBox", async ({page}) => {
+test("promptBox", {tag: ['@PlaywrightWithJenkins']}, async ({page}) => {
 
   await page.goto('https://www.testmuai.com/selenium-playground/javascript-alert-box-demo/');
   page.once('dialog', dialog => {
