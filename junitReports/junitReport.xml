@@ -1,0 +1,41 @@
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="16.958512">
+<testsuite name="tests\01_POST_API_REQUEST_Static.spec.ts" timestamp="2026-09-16T16:52:47.956Z" hostname="chromium" tests="1" failures="0" skipped="0" time="0.46" errors="0">
+<testcase name="Create POST API request using static file in playwright &amp; typescript" classname="tests\01_POST_API_REQUEST_Static.spec.ts" time="0.46">
+<system-out>
+<![CDATA[POST API Response : {
+  "bookingid": 2611,
+  "booking": {
+    "firstname": "playwright typescript by testers talk",
+    "lastname": "playwright javascript by testers talk",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-01",
+      "checkout": "2025-01-01"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="tests\alerts.test.ts" timestamp="2026-09-16T16:52:47.956Z" hostname="chromium" tests="2" failures="0" skipped="0" time="13.039" errors="0">
+<testcase name="confirmBox" classname="tests\alerts.test.ts" time="8.293">
+<system-out>
+<![CDATA[Dialog message: Press a button!
+
+[[ATTACHMENT|..\test-results\tests-alerts-confirmBox-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="promptBox" classname="tests\alerts.test.ts" time="4.746">
+<system-out>
+<![CDATA[Dialog message: Please enter your name
+
+[[ATTACHMENT|..\test-results\tests-alerts-promptBox-chromium\test-finished-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

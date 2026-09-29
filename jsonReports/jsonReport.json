@@ -57,6 +57,12 @@
       [
         "dot",
         null
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "junitReports/junitReport.xml"
+        }
       ]
     ],
     "reportSlowTests": {
@@ -96,16 +102,16 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 511,
+                  "duration": 460,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "POST API Response : {\n  \"bookingid\": 4972,\n  \"booking\": {\n    \"firstname\": \"playwright typescript by testers talk\",\n    \"lastname\": \"playwright javascript by testers talk\",\n    \"totalprice\": 1000,\n    \"depositpaid\": true,\n    \"bookingdates\": {\n      \"checkin\": \"2025-01-01\",\n      \"checkout\": \"2025-01-01\"\n    },\n    \"additionalneeds\": \"breakfast\"\n  }\n}\n"
+                      "text": "POST API Response : {\n  \"bookingid\": 2611,\n  \"booking\": {\n    \"firstname\": \"playwright typescript by testers talk\",\n    \"lastname\": \"playwright javascript by testers talk\",\n    \"totalprice\": 1000,\n    \"depositpaid\": true,\n    \"bookingdates\": {\n      \"checkin\": \"2025-01-01\",\n      \"checkout\": \"2025-01-01\"\n    },\n    \"additionalneeds\": \"breakfast\"\n  }\n}\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-16T10:20:07.179Z",
+                  "startTime": "2026-09-16T16:52:48.520Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -144,7 +150,7 @@
                   "workerIndex": 1,
                   "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 8131,
+                  "duration": 8293,
                   "errors": [],
                   "stdout": [
                     {
@@ -153,7 +159,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-16T10:20:07.192Z",
+                  "startTime": "2026-09-16T16:52:48.522Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -190,7 +196,7 @@
                   "workerIndex": 2,
                   "parallelIndex": 2,
                   "status": "passed",
-                  "duration": 3307,
+                  "duration": 4746,
                   "errors": [],
                   "stdout": [
                     {
@@ -199,7 +205,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-09-16T10:20:07.195Z",
+                  "startTime": "2026-09-16T16:52:48.525Z",
                   "annotations": [],
                   "attachments": [
                     {
@@ -223,8 +229,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-09-16T10:20:06.328Z",
-    "duration": 9554.45,
+    "startTime": "2026-09-16T16:52:40.784Z",
+    "duration": 16958.512,
     "expected": 3,
     "skipped": 0,
     "unexpected": 0,
